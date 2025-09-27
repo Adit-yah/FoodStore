@@ -1,3 +1,60 @@
+# 🍔 FoodStore
+
+This app is make for practicing React and Redux toolkit during development  explore motion for some animation like pop up when item add to cart  , 
+updating states ,  familiar with different react hooks ,
+currently there is no backend so all data is save in localhost 
+
+# Feature
+
+Responsive for small and big screens.
+
+User can sort the food items base on diff categories like :-
+-All
+-Lunch
+-Breakfast
+-Dinner
+-Snacks
+
+User can search food items according to name and  later sort those food base on categories. 
+
+Add to cart feature :
+user able to 
+    -Remove food items form cart. 
+    -increase as well as decrease food quantity.
+    -dynamically the pricing and quantity change. 
+
+
+# Tech 
+
+React.js
+Tailwind CSS
+Vite 
+Motion 
+
+# Future plains
+
+Integrate backend & database for this app
+Tech :- Mongodb , express , node.js , axios other..
+Add new feature like :- auth system , payment , smooth scrolling
+  
+
+# 📂 Project Setup
+
+1. Clone the repo
+bash
+git clone https://github.com/Adit-yah/FoodStore.git
+cd FoodStore
+
+2. For frontend
+cd ../frontend
+npm install
+
+3. Start frontend
+cd frontend
+npm start
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
