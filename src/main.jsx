@@ -9,7 +9,7 @@ import { ToastContainer } from 'react-toastify'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/FoodStore'>
     <Provider store={store}>
     <App />
     <ToastContainer/>
